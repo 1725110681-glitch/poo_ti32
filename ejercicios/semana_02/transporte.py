@@ -1,6 +1,6 @@
 class Transporte:
     def __init__(self, tipo, capacidad, velocidad_max, empresa, ruta, estado, id_unidad, tarifa, gasolina, ano):
-        # 10 Atributos (Variables)
+        
         self.tipo = tipo
         self.capacidad = capacidad
         self.velocidad_max = velocidad_max

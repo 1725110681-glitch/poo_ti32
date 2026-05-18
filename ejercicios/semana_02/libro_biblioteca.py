@@ -1,4 +1,4 @@
-class libroBiblioteca:
+class Librobiblioteca:
 
     def __init__(self,portada,letras,pasta,hojas,imagenes,autor,tipografia,dedicatoria,personajes,indice):
 
@@ -24,4 +24,4 @@ class libroBiblioteca:
         print(f"Personajes:{self.personajes}")
         print(f"Indice:{self.indice}")
 
-El_Principito = libroBiblioteca( "portada.JPG", "75,000", "Blanda", "96", "imagenes.jpg", "Antoine de Saint Exupery", "Granjon, Manuscrito", "A Leon Werth cuando era niño", "El Principito, El Aviador, El Zorro, La Rosa", "capitulo I-IX: El Aviador en el desierto, la vida en el Asteroide B-612, capitulo X: El planeta del Rey, capitulo XI: El planeta del vanidoso" )
+el_principito = Librobiblioteca( "portada.JPG", "75,000", "Blanda", "96", "imagenes.jpg", "Antoine de Saint Exupery", "Granjon, Manuscrito", "A Leon Werth cuando era niño", "El Principito, El Aviador, El Zorro, La Rosa", "capitulo I-IX: El Aviador en el desierto, la vida en el Asteroide B-612, capitulo X: El planeta del Rey, capitulo XI: El planeta del vanidoso" )

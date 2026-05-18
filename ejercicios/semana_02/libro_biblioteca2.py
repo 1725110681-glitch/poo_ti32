@@ -1,4 +1,4 @@
-class LibroBiblioteca:
+class Librobiblioteca:
 
     def leer(self):
         print("Leer el libro")
