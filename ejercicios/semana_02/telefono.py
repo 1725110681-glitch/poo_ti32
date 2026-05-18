@@ -1,0 +1,28 @@
+class Telefono:
+   
+    def __init__(self,pantalla,bocinas,ram,procesador,bateria,botones_laterales,placa_madre,microfono,puerto_de_carga,color):
+
+        self.pantalla = pantalla
+        self.bocinas = bocinas
+        self.ram = ram
+        self.procesador = procesador
+        self.bateria = bateria 
+        self.botones_laterales = botones_laterales
+        self.placa_madre = placa_madre
+        self.microfono = microfono
+        self.puerto_de_carga = puerto_de_carga
+        self.color = color
+
+        print(f"Pantalla:{self.pantalla}")
+        print(f"Bocinas:{self.bocinas}")
+        print(f"Ram:{self.ram}")
+        print(f"Procesador:{self.procesador}")
+        print(f"Bateria:{self.bateria}")
+        print(f"Botones_laterales:{self.botones_laterales}")
+        print(f"Placa Madre:{self.placa_madre}")
+        print(f"Microfono:{self.microfono}")
+        print(f"Puerto de Carga:{self.puerto_de_carga}")
+        print(f"Color:{self.color}")
+
+iphone_17 = Telefono ("OLED Super Retina XDR de 6.3 pulgadas","Estéreo con Audio Espacial","8 GB","Apple A19","3,692 mAh","bloqueo/encendido",None,None,"USB-C","Negro")
+
