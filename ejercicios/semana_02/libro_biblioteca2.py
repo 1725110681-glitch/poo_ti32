@@ -15,7 +15,7 @@ class Librobiblioteca:
     def coleccionar(self):
         print("Guardando el libro en mi coleccion personal")    
                 
-el_principito = LibroBiblioteca()
+el_principito = Librobiblioteca()
 el_principito.leer()
 el_principito.imaginar()
 el_principito.aprender()
