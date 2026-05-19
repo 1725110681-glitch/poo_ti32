@@ -35,8 +35,3 @@ class Coche:
         print("Encendiendo las luces del carro") 
 
 porsche = Coche( "porsche", "911 carrera", "negro", "porsche_911", "12500", "3.0L biturbo", "2", "gasolina", "automatica PDK", "2025" )
-porsche.encender()
-porsche.frenar()
-porsche.cargarCombustible()
-porsche.acelerar()
-porsche.encenderLuces() 
