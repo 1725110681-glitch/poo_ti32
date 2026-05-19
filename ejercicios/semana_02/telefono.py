@@ -24,24 +24,24 @@ class Telefono:
         print(f"Puerto de Carga:{self.puerto_de_carga}")
         print(f"Color:{self.color}")
     
-    def desbloquear():
-        print("El usuario esta presionando el boton para desbloquear el telefono")
+    def tomarFotos():
+        print("El usuario esta tomando una foto con la camara")
 
-    def abrirApp():
-        print("El usuario esta abriendo una aplicacion")
+    def encender():
+        print("El telefono se esta encendiendo")
+
+    def apagar():
+        print("El telefono se esta apagando")
 
     def cargarBateria():
-        print("Conectando el cargador al telefono")
+        print("El telefono se ha conectado al cargador")
 
-    def hacerVideollamada():
-        print("Iniciando una videollamada")
-
-    def enseñarTelefono():
-        print("El usuario esta mostrando el diseño y color de su telefono")
+    def desbloquear():
+        print("El usuario esta desbloqueando la pantalla")
 
 iphone_17 = Telefono ("OLED Super Retina XDR de 6.3 pulgadas","Estéreo con Audio Espacial","8 GB","Apple A19","3,692 mAh","bloqueo/encendido",None,None,"USB-C","Negro")
-Telefono.desbloquear()
-Telefono.abrirApp()
+Telefono.tomarFotos()
+Telefono.encender()
+Telefono.apagar()
 Telefono.cargarBateria()
-Telefono.hacerVideollamada()
-Telefono.enseñarTelefono()
+Telefono.desbloquear()
