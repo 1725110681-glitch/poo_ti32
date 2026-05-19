@@ -28,13 +28,13 @@ class Telefono:
         print("El usuario esta presionando el boton para desbloquear el telefono")
 
     def abrirApp():
-        print("El usuario esta abriendo una aplicacion pesada")
+        print("El usuario esta abriendo una aplicacion")
 
     def cargarBateria():
-        print("Conectando el cargador al puerto del telefono")
+        print("Conectando el cargador al telefono")
 
     def hacerVideollamada():
-        print("Iniciando una videollamada con la camara y el microfono")
+        print("Iniciando una videollamada")
 
     def enseñarTelefono():
         print("El usuario esta mostrando el diseño y color de su telefono")
@@ -44,4 +44,4 @@ Telefono.desbloquear()
 Telefono.abrirApp()
 Telefono.cargarBateria()
 Telefono.hacerVideollamada()
-Telefono.presumirTelefono()
+Telefono.enseñarTelefono()
