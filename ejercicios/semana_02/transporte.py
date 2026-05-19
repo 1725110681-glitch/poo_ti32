@@ -23,4 +23,25 @@ class Transporte:
         print(f"Gasolina = {self.gasolina}")
         print(f"Ano = {self.ano}")
 
-transporte1 = Transporte("Autobús", "20 pasajeros", "90 km/h", "Transportes Pachuca", "Ruta 47", "Activo", "RT47-2026", "$12.00", "Diésel", "2025")
+    def abrir_puertas(self):
+        print("Las puertas se están abriendo")
+
+    def iniciar_ruta(self):
+        print("El motor ha encendido")
+
+    def anunciar_parada(self):
+        print("Próxima parada: Centro los Pastes")
+
+    def frenar(self):
+        print("Disminuyendo la velocidad")
+
+    def finalizar_viaje(self):
+        print("Hemos llegado al final de la ruta")
+
+
+autobus = Transporte("Autobús","20 pasajeros","90 km/h","Transportes Pachuca","Ruta 47","Activo","RT47-2026","$12.00","Diésel","2025")
+autobus.abrir_puertas()
+autobus.iniciar_ruta()
+autobus.anunciar_parada()
+autobus.frenar()
+autobus.finalizar_viaje()

@@ -24,4 +24,24 @@ class Librobiblioteca:
         print(f"Personajes:{self.personajes}")
         print(f"Indice:{self.indice}")
 
+    def leer(self):
+        print("Leer el libro")
+
+    def imaginar(self):
+        print("Imaginando las escenas del libro")
+
+    def aprender(self):
+        print("Adqueriendo nuevos conocimientos")
+
+    def reflexionar(self):
+        print("Reflexionando sobre la lectura")
+         
+    def coleccionar(self):
+        print("Guardando el libro en mi coleccion personal")  
+          
 el_principito = Librobiblioteca( "portada.JPG", "75,000", "Blanda", "96", "imagenes.jpg", "Antoine de Saint Exupery", "Granjon, Manuscrito", "A Leon Werth cuando era niño", "El Principito, El Aviador, El Zorro, La Rosa", "capitulo I-IX: El Aviador en el desierto, la vida en el Asteroide B-612, capitulo X: El planeta del Rey, capitulo XI: El planeta del vanidoso" )
+el_principito.leer()
+el_principito.imaginar()
+el_principito.aprender()
+el_principito.reflexionar()
+el_principito.coleccionar()
